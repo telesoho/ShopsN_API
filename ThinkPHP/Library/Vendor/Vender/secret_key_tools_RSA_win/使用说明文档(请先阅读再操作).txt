@@ -1,0 +1,1 @@
+1、双击脚本文件 “支付宝RAS密钥生成器SHAwithRSA1024_V1.0.bat” 即运行支付宝RAS密钥生成器SHAwithRSA1024_V1.0。

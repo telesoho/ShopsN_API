@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style type="text/css">
+    .mb20{margin-bottom:20px}
+    .title{display:inline-block;width:150px;text-align:right}
+    .w100{width:100px}
+    .mr10{margin-right:10px}
+</style>
+　　　　 <div class="mb20">
+    <label class="title">client_name：</label><input name="client_name" type="text" value="ANDROID"/>
+</div>
+<div class="mb20">
+    <label class="title">client_version：</label><input name="client_version" type="text" value="4.0"/>
+</div>
+<div class="mb20">
+    <label class="title">api_debug：</label><input name="api_debug" type="text"  value=""/>
+</div>
+<div class="mb20">
+    <label class="title">url：</label><input name="client_url" type="text" value=""/>
+</div>
+<div class="mb20">
+    <label class="title"><input name="api_key" type="text"  value="" class="w100"/>：</label><input name="api_value" type="text"  value=""/>
+</div>
+<div class="mb20">
+    <label class="title"></label><input type="button" value="测试" id="submit" class="mr10"/><input type="button" value="添加参数" id="add"/>
+</div>
+<div id="message"></div>
+</body>
+<script type="text/javascript">
+    $("#add").click(function() {
+        var $parent = $(this).parent();
+        var $clone = $parent.prev().clone();
+        $clone.find(':text').val('');
+        $clone.insertBefore($parent);
+    });
+    $("#submit").click(function() {
+        var api_keys = {
+            api_debug:$('input[name=api_debug]').val(),
+            client_url:$('input[name=client_url]').val()
+        };
+        $('input[name=api_key]').map(function() {
+            var key = $.trim($(this).val());
+            var value = $.trim($(this).next().val());
+            var repeat = {};
+            if(key != '') {
+                repeat[key] = value;
+                api_keys = $.extend(api_keys, repeat);
+            }
+        });
+        //提交到test文件中
+
+        $.post(__ROOT__/'home/Index/announcement', api_keys, function(data) {
+            $("#message").html(data);
+        });
+    });
+</script>
+</html>

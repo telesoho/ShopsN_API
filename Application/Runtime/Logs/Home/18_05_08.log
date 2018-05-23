@@ -1,0 +1,454 @@
+[ 2018-05-08T17:37:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2018-05-08T17:38:19+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-08T17:38:19+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Trying to get property of non-object D:\www\shopsn_api\Application\Home\Controller\IndexController.class.php 第 822 行.
+
+[ 2018-05-08T17:38:38+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:38:39+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-08T17:38:51+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-05-08T17:38:51+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-08T17:42:52+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:42:52+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2018-05-08T17:45:09+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:45:10+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: clearance D:\www\shopsn_api\Application\Home\Controller\IndexController.class.php 第 186 行.
+
+[ 2018-05-08T17:48:00+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:48:01+08:00 ] 127.0.0.1 /Home/class/navigation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:48:02+08:00 ] 127.0.0.1 /Home/class/category?fid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:59:30+08:00 ] 127.0.0.1 /Home/class/category?fid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-08T17:59:43+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-05-08T17:59:44+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: clearance D:\www\shopsn_api\Application\Home\Controller\IndexController.class.php 第 186 行.
+
+[ 2018-05-08T17:59:51+08:00 ] 127.0.0.1 /Home/Index/checkUjiaoQianlmei
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-08T17:59:52+08:00 ] 127.0.0.1 /Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant __SERVER__ already defined D:\www\shopsn_api\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 59 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 60 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 61 行.
+NOTIC: [8] Use of undefined constant WEB_HOST - assumed 'WEB_HOST' D:\www\shopsn_api\Application\Home\Conf\config.php 第 62 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 76 行.
+NOTIC: [8] Undefined variable: order D:\www\shopsn_api\Application\Home\Model\ClassModel.class.php 第 112 行.
+NOTIC: [8] Undefined variable: clearance D:\www\shopsn_api\Application\Home\Controller\IndexController.class.php 第 186 行.
+

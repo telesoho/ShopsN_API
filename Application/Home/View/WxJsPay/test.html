@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .motify{display:none;position:fixed;top:35%;left:50%;width:220px;padding:0;margin:0 0 0 -110px;z-index:9999;background:rgba(0, 0, 0, 0.8);color:#fff;font-size:14px;line-height:1.5em;border-radius:6px;-webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.2);box-shadow:0px 1px 2px rgba(0, 0, 0, 0.2);@-webkit-animation-duration 0.15s;@-moz-animation-duration 0.15s;@-ms-animation-duration 0.15s;@-o-animation-duration 0.15s;@animation-duration 0.15s;@-webkit-animation-fill-mode both;@-moz-animation-fill-mode both;@-ms-animation-fill-mode both;@-o-animation-fill-mode both;@animation-fill-mode both;}
+        .motify .motify-inner{padding:10px 10px;text-align:center;word-wrap:break-word;}
+        .motify p{margin:0 0 5px;}.motify p:last-of-type{margin-bottom:0;}
+
+    </style>
+</head>
+<body>
+<font color="#9ACD32"><b>该笔订单支付金额为<span style="color:#f00;font-size:50px">{$order_money}</span>元</b></font><br/><br/>
+<div align="center">
+    <button style="width:210px; height:50px; border-radius: 15px;background-color:#FE6714; border:0px #FE6714 solid; cursor: pointer;  color:white;  font-size:16px;" type="button" onclick="callpay()" >立即支付</button>
+</div>
+
+<div class="motify" id="motify"><div class="motify-inner" id="motify_content"></div></div>
+
+<script type="text/javascript" src="http://www.sucaihuo.com/Public/js/jquery.js"></script>
+<script type="text/javascript">
+    var jsApiParameters = {$jsApiParameters};
+    console.log(jsApiParameters);
+    //调用微信JS api 支付
+    function jsApiCall() {
+        WeixinJSBridge.invoke('getBrandWCPayRequest',jsApiParameters, function(res) {
+            var msg = res.err_msg;
+
+            if (msg == "get_brand_wcpay_request:ok") {
+                alert("支付成功，跳转到订单详情页");
+                location.href = "<?php echo $dir; ?>/order_detail.php";
+            } else {
+                if (msg == "get_brand_wcpay_request:cancel") {
+                    var err_msg = "您取消了微信支付";
+                } else if (res.err_code == 3) {
+                    var err_msg = "您正在进行跨号支付<br/>正在为您转入扫码支付......";
+                } else if (msg == "get_brand_wcpay_request:fail") {
+                    var err_msg = "微信支付失败<br/>错误信息：" + res.err_desc;
+                } else {
+                    var err_msg = msg + "<br/>" + res.err_desc;
+                }
+                show_notice(err_msg);
+            }
+
+        }
+    );
+    }
+
+    function callpay() {
+        if (typeof WeixinJSBridge == "undefined") {
+            if (document.addEventListener) {
+                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+            } else if (document.attachEvent) {
+                document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+            }
+        } else {
+            jsApiCall();
+        }
+    }
+    window.onload = function() {
+        if (typeof WeixinJSBridge == "undefined") {
+            if (document.addEventListener) {
+                document.addEventListener('WeixinJSBridgeReady', '', false);
+            } else if (document.attachEvent) {
+                document.attachEvent('WeixinJSBridgeReady', '');
+                document.attachEvent('onWeixinJSBridgeReady', '');
+            }
+        } else {
+        }
+    }
+    function show_notice(content) {
+        $("#motify").show();
+        $("#motify_content").html(content);
+        setTimeout(function() {
+            $('#motify').hide();
+        }, 3000);
+    }
+</script>
+
+
+
+
+</body>
+</html>
