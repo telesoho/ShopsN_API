@@ -17,7 +17,8 @@ return array(
     // 系统默认的变量过滤机制
     //'DEFAULT_FILTER'        => 'strip_sql,htmlspecialchars',
     //图片域名地址
-    'img_url'            => 'http://demo.shopsn.net',
+    'img_url'            => 'http://haibaobei-ec.com:8081',
+//    'img_url'            => 'http://demo.shopsn.net',
 
     // 上传头像等图片设置图片大小
     'img_size'           => 3145728,
