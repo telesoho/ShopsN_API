@@ -1,0 +1,141 @@
+openapi: 3.0.0
+info:
+  description: |
+    一个开源B2C电商系统ShopsN的API接口。
+    [http://shopsn.telesoho.com](http://shopsn.telesoho.com) 
+  version: 1.0.0
+  title: ShopsN API
+  termsOfService: http://shopsn.telesoho.com/terms/
+  contact:
+    email: telesoho@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+servers:
+  - url: http://api.shopsn
+    description: Optional server description, e.g. Main (production) server
+  - url: https://sandbox-api.shopsn/v1
+    description: Sandbox server (uses test data)
+
+tags:
+- name: 物流
+  description: 商品售后后续
+  externalDocs:
+    description: more
+    url: http://swagger.io
+
+# schemes:
+# - http
+paths:
+  /Home/Afterbuy/express:
+    post:
+      tags:
+      - 物流
+      summary: 物流查询
+      operationId: express  # 操作名函数名
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                order_id:          # <!--- form field name 购物单号
+                  type: integer
+                  example: 0
+              required:
+                - order_id
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReturnMessage'
+          description: >
+            物流查询结果
+            
+            1. 有数据
+              ```json
+                {
+                  'status': 1,
+                  'msg': "返回成功",
+                  'data': {}
+                }
+              ```
+            2. 无数据
+              ```json
+                {
+                  'status': 0,
+                  'msg': "暂无数据",
+                  'data': ""
+                }
+              ```
+
+  /Home/Afterbuy/goods_receipt:
+    post:
+      tags:
+      - 物流
+      description: 用户确认收货，将order表和order_goods表中该用户的对应订单状态设置为4（确认收货)
+      operationId: goods_receipt
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                order_id:          # <!--- 购物单号
+                  type: integer
+                  example: 1
+                app_user_id:    # <!--- form field name zhong_decrypt算法加密后的用户ID
+                  type: string
+                  example: MDAwMDAwMDAwMIByb3M
+              required:
+                - order_id
+                - app_user_id
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReturnMessage'
+          description: >
+            用户确认收货结果
+            
+            1. 写入成功
+              ```json
+                {
+                  'status': 1,
+                  'msg': "返回成功",
+                  'data': ""                
+                }
+              ```、
+            2. 写入失败
+              ```json
+                {
+                  'status': 0,
+                  'msg': "返回失败",
+                  'data': ""
+                }
+              ```
+
+components:
+  schemas:
+    ReturnMessage:
+      type: object
+      properties:
+        status:
+          type: integer
+          description: 处理结果状态
+        msg:
+          type: string
+          description: 处理消息
+        data:
+          type: object
+          description: 处理结果
+
+
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io

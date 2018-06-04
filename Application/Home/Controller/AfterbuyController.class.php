@@ -32,8 +32,8 @@ class AfterbuyController extends CommonController {
                         ['id'=>$exp_id['exp_id']]
                     )
                     ->getField('code');//快递公司编号
+                $data = (new ExpressModel())->getExpress($code, $exp_id['express_id']);
             }
-            $data = (new ExpressModel())->getExpress($code, $exp_id['express_id']);
             if ($data)
                 $this->returnMessage(1, '返回成功', $data);
             else
@@ -44,22 +44,32 @@ class AfterbuyController extends CommonController {
      * 确认收货
      */
    function goods_receipt(){
-        $order_id=I('post.order_id');
-        $user_id=zhong_decrypt('post.app_user_id');
-        $status['order_status']=4;
-        $re= M('order')
-            ->where(
-                ['id'=>$order_id]
-            )
-            ->save($status);
-             M('order_goods')
-             ->where(
-                 array('order_id'=>$order_id,'user_id'=>$user_id)
-             )
-             ->save($status);
-        if($re)
+        $order_id = I('post.order_id');
+        $user_id = I('post.app_user_id');
+        // $user_id = zhong_encrypt($user_id);
+        $user_id = zhong_decrypt($user_id);
+
+        $model = M();
+
+        $model->startTrans();
+
+        try {
+            $order_update = $model->table('__ORDER__')
+                ->where(
+                    ['id'=>$order_id]
+                )
+                ->save(['order_status'=>4]);
+    
+            $order_goods_update = $model->table('__ORDER_GOODS__')
+                ->where(
+                    array('order_id'=>$order_id,'user_id'=>$user_id)
+                )
+                ->save(['status'=>4]);
+            $model->commit();
             $this->returnMessage(1,'返回成功',"");
-        else
+        } catch (Exception $e) {
+            $model->rollback();
             $this->returnMessage(0,'返回失败',"");
-   }
+        }
+    }
 }

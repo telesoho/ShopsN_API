@@ -1,0 +1,17 @@
+{
+    "name": "telesoho/shopsn-api",
+    "authors": [
+        {
+            "name": "telesoho",
+            "email": "telesoho@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "zircote/swagger-php": "^2.0"
+    },
+    "scripts": {
+        "docs": "swagger Application/"
+    }    
+}

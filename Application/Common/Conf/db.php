@@ -18,7 +18,7 @@ return array(
     'DB_PORT' => '3306', //数据库端口
     'DB_PREFIX' => 'db_', //数据库前缀
 	'DB_CHARSET'=> 'utf8', // 字符集
-	'DB_DEBUG'  => '', // 数据库调试模式 开启后可以记录SQL日志
+	'DB_DEBUG'  => 'True', // 数据库调试模式 开启后可以记录SQL日志
     'TMPL_ACTION_SUCCESS'=>'Public:dispatch_jump',		//自定义success跳转页面
     'TMPL_ACTION_ERROR'=>'Public:dispatch_jump',		//自定义error跳转页面
     'IMG_ROOT_PATH'    => '/Uploads/goods/'
